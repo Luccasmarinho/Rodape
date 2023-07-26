@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+}
+
+footer {
+    width: 100%;
+    background-color: black;
+    min-height: 70vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    gap: 50px;
+    
+}
+
+footer .logo {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+footer .logo img {
+    max-width: 120px;
+}
+
+.contatos {
+    width: 100%;
+    max-width: 1024px;
+    display: flex; 
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.cards {
+    border: 1px solid rgba(255, 255, 255, 0.549);
+    width: 300px;
+    height: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.cards h3, p {
+    text-align: center;
+}
+
+.container-redes-sociais {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    
+}
+
+.imgsocialmedia {
+    display: flex;
+    gap: 10px;
+}
+
+.imgsocialmedia img {
+    width: 30px;
+}
+
+.btn {
+   background-image: url('img/seta-para-cima.png'); 
+   background-size: contain;
+   height: 38px;
+   width: 38px;
+   position: absolute;
+   right: 0;
+   bottom: 42px;
+}
+
